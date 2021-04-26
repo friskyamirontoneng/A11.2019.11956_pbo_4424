@@ -5,12 +5,12 @@ import java.util.Stack;
 
 public class Main {
     public static void main(String[] args){
-        StackKu stackKu = new StackKu();
-        String inputan = stackKu.Input_Stack();
+        Mystack mystack = new Mystack();
+        String inputan = mystack.Input_Stack();
 
-        String cek = stackKu.convStrToStack(inputan);
+        String cek = mystack.convStrToStack(inputan);
         if (cek != "x"){
-            stackKu.cekInput(stackKu.stackAngka,inputan);
+            mystack.cekInput(mystack.stackAngka,inputan);
         }
     }
 }
